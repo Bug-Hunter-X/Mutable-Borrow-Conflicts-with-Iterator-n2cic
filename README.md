@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: conflicting mutable and immutable borrows. The `bug.rs` file contains code that attempts to modify a vector while an iterator is borrowing it immutably, leading to a compile-time error. The `bugSolution.rs` file presents a solution.
